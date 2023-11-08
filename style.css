@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@100;300;400;500;600&family=Quicksand&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+header button {
+  position: absolute;
+  padding: 12px;
+  margin: 10px;
+  background: transparent;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+.logo {
+  font-family: 'DM Serif Display', serif;
+  position: absolute;
+  font-size: 13pt;
+  margin-top: 10px;
+  margin-left: 120px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.menuItem {
+  color: #000;
+  margin-left: 30px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 10pt;
+}
+
+.hero {
+  margin-top: 40px;
+}
+
+.hero img {
+  width: 100%;
+} 
+
+.heroText {
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 48px;
+  width: 140px;
+  font-size: 10pt;
+  color: #614917;
+}
+
+.heroText button {
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+  margin-top: 8px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.fa-arrow-right {
+  margin-left: 4px;
+}
+
+.sobreNos {
+  margin: 50px 30px;
+  color: #614917;
+}
+
+.sobreText  {
+  position: absolute;
+  font-size: 12pt;
+}
+
+.sobreText h2 {
+  border-left: 2px solid #9e7825;
+  margin-left: -10px;
+  margin-bottom: 10px;
+  padding-left: 10px; 
+}
+
+.sobreText span {
+  background-color: #9e7825;
+  position: absolute;
+  width: 255px;
+  height: 2px;
+  margin-left: 125px;
+  margin-top: -22px;
+}
+
+.sobreText p {
+  width: 300px;
+  margin-top: 10px;
+  font-size: 11pt;
+}
+
+.sobreText button {
+  background-color: #614917;
+  color: #fff;
+  border: 1px solid #000;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.sobreImgs {
+  position: absolute;
+  margin-top: -20px;
+}
+
+.sobreImgs img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.sobreImgs img:first-child {
+  margin-top: 180px;
+  margin-left: 140px;
+}
+
+.sobreImgs img:last-child {
+  width: 150px;
+  margin-left: 10px;
+  margin-top: -200px;
+}
+
+.surpresas {
+  margin-top: 600px;
+  margin-left: 40px;
+}
+
+.surpresasText h2 {
+  font-size: 24px;
+}
+
+.surpresasText h3 {
+  width: 300px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-bottom: 8px;
+}
+
+.surpresasText ul li {
+  padding: 8px;
+  font-size: 12pt;
+  list-style: none;
+}
+
+.surpresasText li i {
+  color: #0000ff;
+  background-color: #6cffff;
+  font-size: 14pt;
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.surpresaVideo {
+  margin-left: -36px;
+}
+
+.surpresaVideo img {
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 8px;
+}
+
+.surpresaVideo i {
+  position: absolute;
+  font-size: 30pt;
+  margin-left: -170px;
+  margin-top: 104px;
+}
+
+.surpresas button {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #614917;
+  color: #fff;
+  border: 1px solid #000;
+  margin-left: 85px;
+  margin-top: 20px;
+}
