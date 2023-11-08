@@ -197,3 +197,60 @@ header button {
   margin-left: 85px;
   margin-top: 20px;
 }
+
+footer {
+  background-color: #9e7825;
+  margin-top: 140px;
+  height: 150px;
+}
+
+footer .logo{
+  font-size: 11pt;
+  margin: 20px;
+}
+
+footer .links {
+  margin-left: 250px;
+  padding-top: 16px;
+}
+
+footer .links a{
+  display: flex;
+  color: #000;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+footer i {
+  margin-right: 4px;
+}
+
+footer .getInTouch {
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 8px;
+}
+
+footer .getInTouch input {
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #000;
+}
+
+footer .getInTouch input:last-child{
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  margin-left: -30px;
+}
+
+footer p {
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 20px;
+  color: #000;
+}
+
+footer p a {
+  color: #dbb563;
+}
